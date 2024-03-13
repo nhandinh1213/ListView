@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imvPic"
+        android:layout_width="150dp"
+        android:layout_height="234dp"
+        android:src="@drawable/truyen_mat_biec" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/stroke">
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mắt biếc"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtPubC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhà xuất bản trẻ"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txtRePu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lần tái bản: 07"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá: 70.000"
+            android:textSize="20sp"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Cập nhập"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint=""/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
